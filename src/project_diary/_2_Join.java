@@ -64,7 +64,7 @@ public class _2_Join extends GUIManager
 				String name = txtName.getText();
 				
 				if(_1_MainPage.Login_data.get(id)!=null)
-					JOptionPane.showMessageDialog(null, " Already exist ID ", "Join Erro", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, " Already exist ID ", "Join Error", JOptionPane.ERROR_MESSAGE);
 				
 				else if(_1_MainPage.Login_data.get(id)==null ) {
 					_1_MainPage.Login_data.put(id, new LoginData (id,pw,name));
