@@ -55,8 +55,8 @@ public class _2_Join extends GUIManager
 		createJTextField(contentPane, txtId, "", 100,20,110,65,f2);
 		createJTextField(contentPane, txtName, "", 100,20,110,115,f2);
 		createJPasswordField(contentPane, txtPw, "", 100,20,110,90,f2);
-		createJButton(contentPane, bCancel, "Cancel", 70, 25, 30, 180, f2);
-		createJButton(contentPane, bEnter, "Enter", 120, 25, 120, 180, f2);
+		createJButton(contentPane, bCancel, "Cancel", 70, 25, 30, 170, f2);
+		createJButton(contentPane, bEnter, "Enter", 110, 25, 105, 170, f2);
 		
 		createJLabel(contentPane, laAdminNo, "Admin No", 80, 20, 40, 140, f2);
 		createJPasswordField(contentPane, txtAdminNo, "", 100, 20, 110, 140, f2);
