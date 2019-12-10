@@ -20,7 +20,7 @@ public class _3_SecretMemo extends JFrame {
 
 	public _3_SecretMemo() {
 		
-		super("Share Diary");
+		super("Secret Memo");
 		this.setSize(500,250); 
 		this.setLocationRelativeTo(null);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
