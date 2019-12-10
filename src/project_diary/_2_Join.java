@@ -106,7 +106,7 @@ public class _2_Join extends GUIManager
 		int screenY=(int)(screen.getHeight() / 2 - this.getHeight() / 2);
 		setLocation(screenX,screenY);
 		setVisible(true);
-		//setResizable(false);
+		setResizable(false);
 	}
 	
 	public static void main(String[] args) {
