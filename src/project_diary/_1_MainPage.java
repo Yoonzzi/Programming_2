@@ -38,7 +38,7 @@ public class _1_MainPage extends GUIManager {
 		bJoin = new JButton();
 		bExit =new JButton();
 		
-		createJLabel(contentPane,lbTitle,"Quick Diary",145,50,80,10,f1);
+		createJLabel(contentPane,lbTitle,"Secret Memo",145,50,80,10,f1);
 		createJLabel(contentPane,lbId,"User ID : ",80,40,20,60,f2);
 		createJTextField(contentPane,txtId,"",110,20,85,70,f2);
 		createJLabel(contentPane,lbPw,"User PW : ",80,40,20,90,f2);
